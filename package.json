@@ -1,0 +1,17 @@
+{
+  "name": "konnech",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Konnech — un carnet de notes de bureau, simple et hors ligne, pour ranger cours, TP et projets.",
+  "author": "Mariem Jlassi",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron app",
+    "build": "electron-packager app Konnech --platform=win32 --arch=x64 --out=dist --overwrite && resedit --in dist/Konnech-win32-x64/Konnech.exe --out dist/Konnech-win32-x64/Konnech.exe --icon 1,assets/icon.ico --product-name Konnech --file-description Konnech --product-version 1.2.0.0 --file-version 1.2.0.0 --original-filename Konnech.exe --company-name \"Mariem Jlassi\""
+  },
+  "devDependencies": {
+    "@electron/packager": "18.3.6",
+    "electron": "33.2.1",
+    "resedit-cli": "2.0.0"
+  }
+}
