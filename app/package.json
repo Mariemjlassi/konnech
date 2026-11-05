@@ -4,6 +4,5 @@
   "version": "1.2.0",
   "description": "Konnech — carnet personnel pour tes cours, TP et projets",
   "main": "main.js",
-  "author": "Mariem Jlassi",
-  "license": "MIT"
+  "author": "Mariem"
 }

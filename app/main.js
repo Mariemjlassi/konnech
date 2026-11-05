@@ -42,6 +42,7 @@ const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
 function writeMirror(items) {
   const byParent = new Map();
   for (const it of items) {
+    if (it.kind === 'ticket') continue;
     const p = it.parent || '';
     if (!byParent.has(p)) byParent.set(p, []);
     byParent.get(p).push(it);

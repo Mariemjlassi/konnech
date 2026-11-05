@@ -37,6 +37,11 @@
 
 ## Fonctionnalités
 
+**Accueil**
+- Barre « Qu'as-tu en tête ? » : tapez et appuyez sur Entrée pour créer un ticket, ou créez une page ou un dossier en un clic.
+- **Tickets** façon post-it pour les tâches, rappels et idées, à cocher quand c'est fait.
+- Accès direct à la dernière page modifiée et à vos dossiers.
+
 **Organisation**
 - Dossiers et sous-dossiers sans limite de profondeur, avec icône et couleur au choix.
 - Pages classées par type : Cours, TP, TD, Projet, Note.
@@ -45,9 +50,10 @@
 
 **Écriture**
 - Titres, sous-titres, gras, italique, listes, cases à cocher, citations, blocs de code.
-- Surligneur fluo (jaune, vert, rose, bleu, orange).
+- Surligneur fluo et doux (12 couleurs).
 - Retraits avec `Tab` / `Maj+Tab`.
-- Taille du texte réglable par page, papier blanc, ligné ou quadrillé.
+- Taille du texte (8 à 72) sur la sélection ou sur toute la page, papier blanc, ligné ou quadrillé.
+- Boutons de la barre d'édition actifs selon la position du curseur.
 - Enregistrement automatique pendant la frappe.
 
 **Confort**
@@ -180,7 +186,7 @@ L'interface n'a aucun accès direct au système de fichiers (`contextIsolation` 
 
 **Konnech** (from *كنّاش*, "notebook" in Tunisian Arabic) is a minimal, fully offline desktop notebook for Windows. Organise your work in folders and pages, and write directly on a plain, lined or grid sheet.
 
-**Features:** nested folders with icons and colours · page types (course, lab, tutorial, project, note) · favourites, recent pages and archive · full-text search · headings, lists, checkboxes, code blocks, neon highlighter, indentation · adjustable text size · French and English interface · light and dark theme.
+**Features:** quick-capture bar and sticky-note tickets on the home page · nested folders with icons and colours · page types (course, lab, tutorial, project, note) · favourites, recent pages and archive · full-text search · headings, lists, checkboxes, code blocks, neon highlighter, indentation · text size from 8 to 72 · French and English interface · light and dark theme.
 
 **Install:** download `Konnech-Windows.zip` from [Releases](../../releases/latest), extract it and run `Konnech.exe`. If SmartScreen appears, click *More info*, then *Run anyway* (the app is not code-signed).
 
